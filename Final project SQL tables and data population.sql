@@ -1,8 +1,3 @@
---Cole Mische
---Misch123
---CS4322 Summer 2025 Final project
-
-
 --Mechanism to prevent guest wristband IDs and family member wristband IDs from overlapping
 CREATE SEQUENCE IF NOT EXISTS global_id_seq;
 
@@ -160,4 +155,5 @@ INSERT INTO Wake_Up_Call (Guest_ID, Wakeup_Date, Wakeup_Time) VALUES
 (3, '2025-08-11', '08:00'),
 (4, '2025-08-16', '06:45'),
 (5, '2025-08-02', '07:30'),
+
 (6, '2025-08-22', '08:15');

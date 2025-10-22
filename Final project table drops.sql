@@ -1,7 +1,3 @@
---Cole Mische
---Misch123
---CS4322 Summer 2025 Final project
-
 --This block wipes all tables and resets the ID counter. Use with caution!
 DO $$
 BEGIN
@@ -19,4 +15,5 @@ BEGIN
     ALTER SEQUENCE global_id_seq RESTART;
 END;
 $$ LANGUAGE plpgsql;
+
 

@@ -1,10 +1,3 @@
-//Cole Mische
-//Misch123
-//CS4322 Summer 2025 Final project
-
-//NOTE: My database is apparently named "postgres" and not "misch123"
-//I probably goofed something up when initializing it, but the code here works
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -139,4 +132,5 @@ public class DBConn {
         }
         return result.toString();
     }
+
 }
